@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Postarium</string>
+
+    <!--Division Title-->
+    <string name="sylhet_title">Sylhet</string>
+    <string name="dhaka_title">Dhaka</string>
+    <string name="chittagong_title">Chittagong</string>
+    <string name="khulna_title">khulna</string>
+    <string name="rajshahi_title">Rajshahi</string>
+    <string name="barisal_title">Barisal</string>
+    <string name="rangpur_title">Rangpur</string>
+    <string name="mymensingh_title">Mymensingh</string>
+
+    <string name="action_settings">About</string>
+    <string name="title_activity_sylhet">SylhetActivity</string>
+    <string name="title_activity_mymensingh">MymensinghActivity</string>
+    <string name="title_activity_dhaka">DhakaActivity</string>
+    <string name="title_activity_chittagong">ChittagongActivity</string>
+    <string name="title_activity_khulna">KhulnaActivity</string>
+    <string name="title_activity_rajshahi">RajshahiActivity</string>
+    <string name="title_activity_barisal">BarisalActivity</string>
+    <string name="title_activity_rangpur">RangpurActivity</string>
+    <string name="title_activity_syleht_disp">Postarium</string>
+    <string name="title_activity_splash">Postarium</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="aboutt_description">
+        Postarium is application that has an online or Remote Data Base to show all district area\'s post code of Bangladesh it also contains Thana phone numbers for
+emergency needs. it is very helpfull and handy tool for find Post Code and Police Station or Thana phone number easily. sometimes it is complicated to find Post Code or any other information of any areas of bangladesh
+so i made this application to help people to find all areas information in one application.
+    </string>
+
+    <string name = "app_version">Version 1.0</string>
+    <string name = "app_developed_by">
+        Author : Arunav Mallik Avi (Arm Avi) \n
+        Department of CSE, National University, Bangladesh
+    </string>
+
+</resources>

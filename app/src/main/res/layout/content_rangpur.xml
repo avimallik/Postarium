@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEAEAEA"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.postarium.arm_avi.postarium.SylhetActivity"
+    tools:showIn="@layout/activity_rangpur">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#2C2C72">
+
+        <ImageView
+            android:id="@+id/reloadBtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/searchBtn"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            app:srcCompat="@android:drawable/stat_notify_sync" />
+
+        <EditText
+            android:id="@+id/searchBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/searchBtn"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_toLeftOf="@+id/searchBtn"
+            android:layout_toStartOf="@+id/searchBtn"
+            android:backgroundTint="@color/colorAccent"
+            android:ems="10"
+            android:hint="Search Area"
+            android:inputType="textPersonName"
+            android:textColor="#FFE4E4E4"
+            android:textColorHint="@color/colorAccent"
+            android:textColorLink="@color/colorAccent"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/searchBtn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_toLeftOf="@+id/reloadBtn"
+            android:layout_toStartOf="@+id/reloadBtn"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout">
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/edittext1"
+            android:divider="#00000000" />
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:indeterminateTint="#d60909" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
