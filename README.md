@@ -4,11 +4,11 @@ emergency needs. it is very helpfull and handy tool for find Post Code and Polic
 so i made this application to help people to find all areas information in one application.
 
 in this application the JSON data are parsed from a PHP Server.
-Language Used in This Application : \n
-Backend : PHP, JSON \n
-Frontend : HTML5, CSS3, Bootstrap, JavaScript
-Android Application : Java
+Language Used in This Application : <br/>
+Backend : PHP, JSON <br/>
+Frontend : HTML5, CSS3, Bootstrap, JavaScript <br/>
+Android Application : Java <br/>
 
-The link of Postarium Website : 
+The link of Postarium Website : <br/>
 http://www.armapprise.com/postarium.php
 
