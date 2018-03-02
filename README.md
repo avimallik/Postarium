@@ -12,5 +12,5 @@ Android Application : Java <br/>
 The link of Postarium Website : <br/>
 http://www.armapprise.com/postarium.php
 
-![screenshot_20180302-141815](https://user-images.githubusercontent.com/21225215/36889772-a165c7ea-1e25-11e8-95b4-60f2ae2cb391.png)
+
 
